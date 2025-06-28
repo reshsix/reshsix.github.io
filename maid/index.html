@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>A Cryptography Library for Maids</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            document.addEventListener('click', musicPlay);
+            function musicPlay() {
+                document.getElementById('audio').play();
+                document.getElementById('cover').remove();
+                document.removeEventListener('click', musicPlay);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="cover">
+            <img id="door" src="assets/door.webp"></img>
+        </div>
+        <div id="container">
+            <div id="text-container">
+                <h1>A Cryptography Library for Maids</h1>
+                Libmaid is a cryptography library for those
+                who are not afraid to live</br>
+                Written from scratch by a single person,
+                it embodies the spirit of rolling your own cryptography</br>
+                There's no certifications, money going to corporations,
+                or experts bribed in the process of making it</br>
+                <br/>
+                Currently supports the following algorithms:
+                <table>
+                    <tr>
+                        <th>Category</th>
+                        <th>Algorithms</th>
+                    </tr>
+                    <tr>
+                        <td>Block Ciphers</td>
+                        <td>AES-CTR (128, 192, 256)</td>
+                    </tr>
+                    <tr>
+                        <td>Stream Ciphers</td>
+                        <td>Chacha20</td>
+                    </tr>
+                    <tr>
+                        <td>MACs</td>
+                        <td>Poly1305, HMAC</td>
+                    </tr>
+                    <tr>
+                        <td>AEADs</td>
+                        <td>AES-GCM, Chacha20Poly1305</td>
+                    </tr>
+                    <tr>
+                        <td>RNGs</td>
+                        <td>CTR-DRBG-AES</td>
+                    </tr>
+                    <tr>
+                        <td>Hash Functions</td>
+                        <td>SHA-1*, SHA-2</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Signatures</td>
+                        <td>RSA PKCS#1 v1.5</td>
+                    </tr>
+                    <tr>
+                        <td>Key Exchange</td>
+                        <td>Diffie-Hellman</td>
+                    </tr>
+                    <tr>
+                        <td>Serialization</td>
+                        <td>PEM, PKCS#1, PKCS#8</td>
+                    </tr>
+                    <tr>
+                        <td>Encoding</td>
+                        <td>Base16*, Base32*, Base64</td>
+                    </tr>
+                </table>
+                * Only in the development version</br>
+                </br>
+                Latest stable version:
+                <a href="https://github.com/reshsix/libmaid/tree/v1.3">v1.3</a>
+                </br>
+                Development version:
+                <a href="https://github.com/reshsix/libmaid">v1.4 alpha</a>
+                <br/>
+                </br>
+                This software bears the
+                <a href="../">Mark of the Beast</a> </br>
+            </div>
+            <img id="poster" src="assets/poster.webp"/>
+        </div>
+        <div id="footer">
+            <div>
+            "We strongly discourage the use of this software."</br>
+            — National Security Agency</br>
+            </div>
+            <div>
+            "For the love of all that is secure, don’t use this."</br>
+            — Stack Overflow</br>
+            </div>
+            <div>
+            "This is bordering violence and war crimes."</br>
+            — Reddit</br>
+            </div>
+        </div>
+        <audio id="audio">
+            <source src="assets/Gaslight Waltz.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>

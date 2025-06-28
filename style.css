@@ -1,0 +1,57 @@
+html {
+    height: 100vh;
+}
+
+body {
+    font-size: 120%;
+    color: white;
+    display: flex;
+    height: 90%;
+    justify-content: space-around;
+    background: url("assets/wallpaper.webp");
+    background-size: cover;
+    background-position: 0vh -30vh;
+    background-attachment: fixed;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+                 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+a {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+ul {
+    list-style-type: "𒀭";
+}
+
+#text-container {
+    font-size: 135%;
+    height: 75vh;
+    width: 100%;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    text-align: justify;
+    justify-content: flex-start;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    flex: 1;
+    display: flex;
+    margin-bottom: 3vh;
+    justify-content: space-around;
+}
