@@ -46,9 +46,19 @@ hr {
     margin: 30px 0;
 }
 
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0.2;
+    }
+}
+
 img {
     width: 333px;
-    filter: brightness(50%) contrast(200%) saturate(0%);
+    filter: none;
+    animation: flicker 1.5s infinite;
 }
 
 img:hover {
