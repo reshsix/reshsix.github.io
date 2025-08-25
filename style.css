@@ -95,6 +95,6 @@ footer {
     max-width: 666px;
 }
 
-#text {
-    column-count: 2;
+.text {
+    text-align: left;
 }
