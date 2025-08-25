@@ -1,66 +1,100 @@
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/fonts/Cinzel-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/fonts/Cinzel-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 900;
+    src: url("/assets/fonts/Cinzel-Black.ttf") format('truetype');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
-    color: #b8a1a1;
-    background: #000000;
-    font-family: "Georgia" serif;
-    padding: 0;
-    max-width: 666px;
-    margin: auto;
-    padding: 60px 20px;
+    color: #2b1c1c;
+    background: #faf7f0;
+    font-family: "Cinzel", serif;
     text-align: center;
+    line-height:1.55;
+    margin: 0;
+    height: 100%;
 }
 
-h1 {
-    color: #9e0000;
-    font-family: "Trajan Pro", serif;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+header {
+    background: inherit;
+    position: sticky;
+    border-bottom: 1px solid #e6e0d4;
+    margin-bottom: 3rem;
+    top: 0;
 }
 
-h2 {
-    color: #c2a100;
-    font-family: "Trajan Pro", serif;
-    font-weight: normal;
-    text-transform: uppercase;
+nav {
+    margin: 5px 10px;
+    font-weight: 900;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
 a {
-    color: #a38e6f;
-    text-decoration: none;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #5c0000;
-    transition: all 0.3s ease;
+    color:#7e1010;
+    text-decoration:none;
 }
 
 a:hover {
-    color: #ffcc66;
-    border-bottom: 1px solid #ff0000;
-    text-shadow: 0 0 4px #8b0000;
-    cursor: crosshair;
+    color: #c9a227;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #550000;
-    margin: 30px 0;
+h1 {
+    color: #7e1010;
+    background: #00000006;
+    border-radius:10px;
 }
 
-@keyframes flicker {
-    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-        opacity: 1;
-    }
-    20%, 24%, 55% {
-        opacity: 0.2;
-    }
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0;
+    background: inherit;
 }
 
-img {
-    width: 333px;
-    filter: none;
-    animation: flicker 1.5s infinite;
+#links {
+    display:flex;
+    flex-wrap:wrap;
 }
 
-img:hover {
-    filter: brightness(75%) contrast(200%) saturate(50%);
+#links a{
+    color: inherit;
+    padding:.35rem .65rem;
+    border-radius:10px;
+}
+
+#links a:hover{
+    background:#00000006;
+}
+
+#content {
+    margin: auto;
+    max-width: 666px;
+}
+
+#text {
+    column-count: 2;
 }
