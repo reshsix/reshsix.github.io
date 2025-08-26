@@ -22,28 +22,28 @@
                 <br>
                 <h2>What is a programming language?</h2>
                 A programming language is a formal language used to program a certain machine: Java controls the JVM, Python and Javascript control it's respectives environments, while C controls the processor and operating system.<br>
-                You start to understand the choices and behaviors of the C language, when you look at it from the bottom of the abstraction tower (machine code and assembly), while most languages are teached to be seen from the top (natural language).
+                You start to understand the choices and behaviors of the C language, when you look at it from the bottom of the abstraction tower (machine code and assembly), while most languages are taught to be seen from the top (natural language).
                 <h2>The Base of the Tower</h2>
                 For those who don't know assembly, a processor can only execute very simple instructions. Each processor has a different set, and each operating system has a different way to be called:
                 <pre>
-                    Exits program in DOS x86
-                    <code>
-                        mov ah, 4ch
-                        mov al, 0
-                        int 21h
-                    </code>
-                    Exits program in Linux x86
-                    <code>
-                        mov eax, 1
-                        xor ebx, ebx
-                        int 0x80
-                    </code>
-                    Exits program in Linux ARM
-                    <code>
-                        mov r7, #1
-                        mov r0, #0
-                        svc #0
-                    </code>
+Exits program in DOS x86
+<code>
+    mov ah, 4ch
+    mov al, 0
+    int 21h
+</code>
+Exits program in Linux x86
+<code>
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80
+</code>
+Exits program in Linux ARM
+<code>
+    mov r7, #1
+    mov r0, #0
+    svc #0
+</code>
                 </pre>
                 The most logical solution for this problem, would be making a language that provides the basic translation for more complex programs (or even languages) to be built on top.
                 <h2>Universal Language</h2>
