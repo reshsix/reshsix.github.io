@@ -26,8 +26,8 @@
 }
 
 body {
-    color: #2b1c1c;
-    background: #faf7f0;
+    color: white;
+    background: black;
     font-family: "Cinzel", serif;
     text-align: center;
     line-height:1.55;
@@ -52,17 +52,16 @@ nav {
 }
 
 a {
-    color:#7e1010;
+    color: white;
     text-decoration:none;
 }
 
 a:hover {
-    color: #c9a227;
+    color: crimson;
 }
 
 h1 {
-    color: #7e1010;
-    background: #00000006;
+    color: crimson;
     border-radius:10px;
 }
 
@@ -87,7 +86,7 @@ footer {
 }
 
 #links a:hover{
-    background:#00000006;
+    color: crimson;
 }
 
 #content {
