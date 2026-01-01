@@ -100,3 +100,9 @@ footer {
     text-align: left;
     padding-bottom: 60px;
 }
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
