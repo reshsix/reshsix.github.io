@@ -37,6 +37,22 @@ body {
     overflow:hidden;
 }
 
+header {
+    background: inherit;
+    position: sticky;
+    border-bottom: 1px solid #e6e0d4;
+    margin-bottom: 3rem;
+    top: 0;
+}
+
+nav {
+    margin: 5px 10px;
+    font-weight: 900;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
 a {
     color: white;
     text-decoration:none;
@@ -47,7 +63,32 @@ a:hover {
 }
 
 h1 {
+    color: crimson;
     border-radius:10px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    margin: 0 0;
+    background: inherit;
+}
+
+#links {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#links a{
+    color: inherit;
+    padding:.35rem .65rem;
+    border-radius:10px;
+}
+
+#links a:hover{
+    color: crimson;
 }
 
 #content {
