@@ -27,17 +27,25 @@
 
 body {
     color: white;
-    background: #0d0d14;
+    background: 
+        linear-gradient(
+            rgba(13, 13, 20, 0.8), 
+            rgba(13, 13, 20, 0.8)
+        ),
+        url("/assets/images/gehenna.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     font-family: "Cinzel", serif;
     text-align: center;
     line-height:1.55;
     margin: 0;
-    height: 100%;
+    height: 100vh;
     overscroll-behavior: none;
     overflow:hidden;
 }
-            
+
 body::before {
     content: '';
     position: fixed;
@@ -115,9 +123,9 @@ footer {
 
 #content {
     margin: auto;
-    max-width: 666px;
+    max-width: 90%;
     color: #ccc;
-    padding: 10px 100px;
+    padding: 10px 100px 10px 100px;
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 5px purple;
 }
