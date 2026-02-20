@@ -30,7 +30,7 @@ body {
     background: 
         linear-gradient(
             rgba(13, 13, 20, 0.8), 
-            rgba(13, 13, 20, 0.8)
+            rgba(13, 13, 20, 1.0)
         ),
         url("/assets/images/gehenna.jpg");
     background-size: cover;
