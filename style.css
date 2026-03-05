@@ -27,6 +27,7 @@
 
 html {
     background: rgb(13,13,20);
+    overscroll-behavior: none;
 }
 
 body {
