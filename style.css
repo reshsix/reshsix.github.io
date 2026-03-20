@@ -78,6 +78,7 @@ header {
 }
 
 nav {
+    margin: 0;
     padding: 5px 10px;
     font-weight: 900;
     display: flex;
