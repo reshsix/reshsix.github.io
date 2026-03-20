@@ -26,7 +26,6 @@
 }
 
 html {
-    background: rgb(13,13,20);
     overscroll-behavior: none;
 }
 
@@ -42,6 +41,8 @@ body {
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
     font-family: "Cinzel", serif;
     text-align: center;
     line-height:1.55;
