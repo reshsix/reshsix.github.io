@@ -39,9 +39,13 @@ nav {
     margin: 0;
     padding: 5px 10px;
     font-weight: 900;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 10px;
+    border: 1px solid #2a241d;
+    margin-bottom: 10px;
+    background: #121212;
 }
 
 a {
