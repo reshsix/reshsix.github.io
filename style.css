@@ -30,13 +30,8 @@ html {
 }
 
 body {
-    color: white;
-    background: 
-        linear-gradient(
-            rgba(13, 13, 20, 0.8), 
-            rgba(13, 13, 20, 1.0)
-        ),
-        url("/assets/images/gehenna.jpg");
+    color: #d2ccb8;
+    background: #151515;
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -45,24 +40,11 @@ body {
 
     font-family: "Cinzel", serif;
     text-align: center;
-    line-height:1.55;
+    line-height: 1.55;
     margin: 0;
     height: 100vh;
     overscroll-behavior: none;
     overflow: auto;
-}
-
-body::before {
-    content: '';
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-image: 
-        linear-gradient(0deg, rgba(255,255,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-    background-size: 50px 50px;
-    pointer-events: none;
-    z-index: -1;
 }
 
 header {
@@ -70,10 +52,7 @@ header {
     border-bottom: 1px solid #e6e0d4;
     margin-bottom: 3rem;
     top: 0;
-    text-shadow:
-        0 0 7px white,
-        0 0 10px red,
-        0 0 20px red;
+    padding: 0.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
