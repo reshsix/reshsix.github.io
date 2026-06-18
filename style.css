@@ -49,18 +49,14 @@ main {
     padding: 20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
 a:hover {
     color: crimson;
 }
 
-h1 {
-    color: crimson;
-    border-radius: 10px;
+h1, h2 {
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 
 footer {
@@ -97,9 +93,19 @@ footer {
     height: calc(100vh - 70px);
 }
 
-#content {
+.content {
     padding: 16px;
+    margin-bottom: 18px;
     border: 1px solid #2a241d;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 6px;
+    border: 1px solid #3a3328;
+    margin-right: 6px;
+    color: #a8a08f;
 }
 
 .text {
