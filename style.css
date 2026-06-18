@@ -31,6 +31,24 @@ header {
     padding: 18px 24px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     background: linear-gradient(90deg, #151515, #1a1412);
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 0.75;
+}
+        
+#logo {
+    width: 50px;
+    height: 50px;
+
+    border: 2px solid #6c2020;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
 }
 
 nav {
