@@ -45,6 +45,10 @@ nav {
     background: #121212;
 }
 
+.nav-item.active {
+    background: #6c2020;
+}
+
 main {
     padding: 20px;
 }
@@ -55,7 +59,7 @@ a {
 }
 
 a:hover {
-    color: crimson;
+    color: orange;
 }
 
 h1, h2 {
