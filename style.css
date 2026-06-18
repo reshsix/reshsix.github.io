@@ -36,7 +36,6 @@ header {
 nav {
     margin: 0;
     padding: 16px;
-    font-weight: 900;
 }
 
 .nav-item {
@@ -99,10 +98,8 @@ footer {
 }
 
 #content {
-    margin: auto;
-    max-width: 90%;
-    color: #ccc;
-    padding: 10px 100px 10px 100px;
+    padding: 16px;
+    border: 1px solid #2a241d;
 }
 
 .text {
