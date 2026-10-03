@@ -9,15 +9,19 @@ html {
 }
 
 body {
-    color: #d2ccb8;
-    background: #151515;
+    color: white;
+    background:
+        linear-gradient(
+            rgba(13, 13, 20, 0.0),
+            rgba(13, 13, 20, 0.75)
+        ), url("assets/images/gehenna.jpg");
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
-    font-family: "Georgia", serif;
+    font-family: "Segou UI", sans-serif;
     line-height: 1.55;
     margin: 0;
     overscroll-behavior: none;
@@ -26,13 +30,16 @@ body {
 
 header {
     top: 0;
-    padding: 18px 24px;
+    padding: 20px 20px;
     border-bottom: 1px solid #3a3328;
-    background: linear-gradient(90deg, #151515, #1a1412);
+    background: linear-gradient(
+        rgba(26, 20, 28, 0.75),
+        rgba(21, 21, 21, 0.75)
+    );
     gap: 20px;
     display: flex;
     align-items: center;
-    line-height: 0.75;
+    font-size: 14px;
 }
         
 #logo {
@@ -56,10 +63,10 @@ nav {
 }
 
 .nav-item {
+    color: #d2d2d2;
+    background: rgba(21, 21, 21, 0.75);
     padding: 10px;
-    border: 1px solid #2a241d;
     margin-bottom: 10px;
-    background: #121212;
 }
 
 .nav-item.active {
@@ -76,11 +83,10 @@ a {
 }
 
 a:hover {
-    color: orange;
+    color: crimson;
 }
 
 h1, h2 {
-    margin: 0 0 10px 0;
     letter-spacing: 1px;
     font-weight: normal;
 }
@@ -92,18 +98,20 @@ h1, h2 {
 }
 
 .content {
+    background: rgba(21, 21, 21, 0.75);
     padding: 16px;
     margin-bottom: 18px;
     border: 1px solid #2a241d;
 }
 
 .tag {
+    color: #d2d2d2;
+    background: rgba(21, 21, 21, 0.75);
     display: inline-block;
     font-size: 12px;
     padding: 2px 6px;
     border: 1px solid #3a3328;
     margin-right: 6px;
-    color: #a8a08f;
 }
 
 .text {
